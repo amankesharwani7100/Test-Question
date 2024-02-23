@@ -1,0 +1,31 @@
+6.  What is string interpolation and concatenation. Write definition with example?
+
+Ans:- String Interpolation and Concatenation in Java
+
+String Interpolation:-
+String interpolation in Java allows embedding expressions within string literals. This is achieved using the String.format() method or by using String's format() method directly.
+
+Example:- String name = "Ram";
+int age = 23;
+String message = """
+                Hello, my name is %s 
+                and I am %d years old.
+                """.formatted(name, age);
+System.out.println(message);
+
+Output:- Hello, my name is Ram
+and I am 23 years old.
+
+
+
+String Concatenation:-
+String concatenation in Java refers to the process of combining multiple strings into a single string. This can be achieved using the + operator.
+
+Example:- String firstName = "Aman";
+String lastName = "Kesharwani";
+String fullName = firstName + " " + lastName;
+System.out.println("Full Name: " + fullName);
+
+output:- Full Name: Aman Kesharwani
+
+
